@@ -241,7 +241,7 @@ view: covid {
     type: count
     drill_fields: [country_name, subregion1_name, subregion2_name]
   }
-  measure: sum {
+  measure: average {
     type: average
     drill_fields: [mobility_parks]
   }
